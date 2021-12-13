@@ -1,0 +1,13 @@
+{
+    "authenticationMethod": "route",
+    "routes": [
+        {
+            "source": "^/V4/(.*)$",
+            "target": "$1",
+            "authenticationType": "xsuaa",
+            "destination": "odatasrv",
+            "csrfProtection": false
+        }
+    ],
+    "welcomeFile": "/adzjieapp"
+}
